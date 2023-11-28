@@ -113,7 +113,7 @@ fill:  #2196F3;
             
 }
 .main-content{
-    background: url(../WebStudio/compania.png)no-repeat;
+    background: url(../Webstudioo/compania.png)no-repeat;
     background-position-x:right ;
     background-size: 100%;
     width: 100vw;
@@ -379,7 +379,7 @@ body{
     margin: 0;
 }
 .card-icon-inst:hover   {
-    background: url(../WebStudio/Ellipse\ \(1\).png) no-repeat;
+    background: url(../Webstudioo/Ellipse\ \(1\).png) no-repeat;
     background-size: 100%;
     background-position-x:center ;
     background-position-y: center;
@@ -431,5 +431,5 @@ body{
         
 }
 .card-footer{
-    background: url(../WebStudio/e.png);
+    background: url(../Webstudioo/e.png);
 }
