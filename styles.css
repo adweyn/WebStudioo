@@ -433,3 +433,6 @@ body{
 .card-footer{
     background: url(../Webstudioo/e.png);
 }
+body{
+    overflow-x: hidden;
+}
