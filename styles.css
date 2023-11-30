@@ -113,7 +113,7 @@ fill:  #2196F3;
             
 }
 .main-content{
-    background: url(../Webstudioo/compania.png)no-repeat;
+    background: url(../Webstudioo/Img.jpg)no-repeat;
     background-position-x:right ;
     background-size: 100%;
     width: 100vw;
@@ -435,4 +435,18 @@ body{
 }
 body{
     overflow-x: hidden;
+}
+.placeholder::placeholder{
+    position: relative;
+    bottom: 45px;
+    left: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:focus{
+border-radius: 4px;
+    border: 1px solid #2196F3;
 }
