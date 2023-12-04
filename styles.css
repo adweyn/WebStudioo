@@ -113,7 +113,7 @@ fill:  #2196F3;
             
 }
 .main-content{
-    background-image: url(Img.jpg);
+    background: url(Img.jpg);
     background-position-x:right ;
     background-size: 100%;
     width: 100vw;
