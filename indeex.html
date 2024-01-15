@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,12 +21,12 @@
     />
   </head>
   <body>
-    <header>
+    <header style="border-bottom: 1px #ececec solid">
       <div class="menu">
         <h1 class="header-name">Studio</h1>
         <ul class="header-menu">
           <li>
-            <a style="text-decoration: none" class="menuu" href="">Студія</a>
+            <a style="text-decoration: none" class="menuu" href="index.html">Студія</a>
           </li>
           <li>
             <a style="text-decoration: none" class="menuu" href="">Портфоліо</a>
@@ -84,27 +84,89 @@
       </div>
     </header>
     <main>
-      <div>
-        <ul>
-          <li><button>Усі</button></li>
-          <li><button>Веб-сайти</button></li>
-          <li><button>Додатки</button></li>
-          <li><button>Дизайн</button></li>
-          <li><button>Маркетинг</button></li>
+      <div class="menu-block">
+        <ul class="main-menu">
+          <li class="main-list">
+            <button style="width: 73px" class="main-buttons">Усі</button>
+          </li>
+          <li class="main-list">
+            <button style="width: 125px" class="main-buttons">Веб-сайти</button>
+          </li>
+          <li class="main-list">
+            <button style="width: 112px" class="main-buttons">Додатки</button>
+          </li>
+          <li class="main-list">
+            <button style="width: 103px" class="main-buttons">Дизайн</button>
+          </li>
+          <li class="main-list">
+            <button style="width: 130px" class="main-buttons">Маркетинг</button>
+          </li>
         </ul>
-        <div>
-          <img src="" alt="" />
-          <p>Технокряк</p>
-          <p>Веб-сайт</p>
+      </div>
+      <div style="display: flex; justify-content: center; padding-top: 50px;">
+        <div class="cards">
+          <div class="main-card">
+            <img class="main-img" src="images/technokrak.png" alt="" />
+            <p class="main-p1">Технокряк</p>
+            <p class="main-p2">Веб-сайт</p>
+          </div>
+          <div class="main-card">
+            <img class="main-img" src="images/Orlean.png" alt="" />
+            <div>
+              <p class="main-p1">Постер New Orlean vs Golden Star</p>
+              <p class="main-p2">Дизайн</p>
+            </div>
+          </div>
+          <div class="main-card">
+            <img class="main-img" src="images/Seafood.png" alt="" />
+            <div>
+              <p class="main-p1">Ресторан Seafood</p>
+              <p class="main-p2">Додаток</p>
+            </div>
+          </div>
+          <div class="main-card">
+            <img class="main-img" src="images/Prime.png" alt="" />
+            <div>
+              <p class="main-p1">Проєкт Prime</p>
+              <p class="main-p2">Маркетинг</p>
+            </div>
+          </div>
+          <div class="main-card">
+            <img class="main-img" src="images/boxes.png" alt="" />
+            <div>
+              <p class="main-p1">Проєкт Boxes</p>
+              <p class="main-p2">Додаток</p>
+            </div>
+          </div>
+          <div class="main-card">
+            <img class="main-img" src="images/borders.png" alt="" />
+            <div>
+              <p class="main-p1">Inspiration has no Borders</p>
+              <p class="main-p2">Веб-сайт</p>
+            </div>
+          </div>
+          <div class="main-card">
+            <img class="main-img" src="images/Limited.png" alt="" />
+            <div>
+              <p class="main-p1">Видання Limited Edition</p>
+              <p class="main-p2">Дизайн</p>
+            </div>
+          </div>
+          <div style="" class="main-card">
+            <img class="main-img" src="images/LAB.png" alt="" />
+            <div>
+              <p class="main-p1">Проєкт LAB</p>
+              <p class="main-p2">Маркетинг</p>
+            </div>
+          </div>
+          <div class="main-card">
+            <img class="main-img" src="images/growing.png" alt="" />
+            <div>
+              <p class="main-p1">Growing Business</p>
+              <p class="main-p2">Додаток</p>
+            </div>
+          </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
     </main>
   </body>
